@@ -1,11 +1,12 @@
 # Audumbla : Cow-Cow Week
+##Spring MVC Application with MySQL World Database
 
-Requirements (part 2: Spring REST API
-Following on from the last project, you have been asked to creat a RESTful API that exposes data from the MySQL World Database
-The API should allow someone to perform CRUD operation on the 3 tables
-You should use good error handling to report on misuse of the API with good messaging and correct status codes
-Think carefully about the design of your API and how you will use path variables, request bodies ond request parameters
-In addition, you will need to research how to do the following:
-Secure the endpoints using an API key. Someone without the key with only be able to read data (Not using Spring Security)
-Use Swagger UI to provide a graphical interface to your API
-The API should be tested using MockMVC for integration testing and WebMVCTests for unit testing
+Following on from the last project, you have been asked to create a Spring MVC application that interacts with the MySQL World Database.
+
+###The application should allow a user to view, add, update, and delete data from the 3 tables using a web interface backed by Thymeleaf.
+
+###You are free to use any CSS/JavaScript framework to develop the website, but we recommend you use Bootstrap.
+
+###Use Spring Security to secure the application. Users should be able to log in and out and only see data, while an admin should be able to perform CRUD operations.
+
+###The site should be tested using MockMVC for integration testing and WebMVCTests for unit testing.
