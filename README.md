@@ -1,4 +1,4 @@
-# Audumbla : Cow-Cow Week
+# Audumbla : Space Cows Week
 ## Spring MVC Application with MySQL World Database
 
 Following on from the last project, you have been asked to create a Spring MVC application that interacts with the MySQL World Database.
