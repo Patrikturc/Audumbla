@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List Authors</title>
+</head>
+<body>
+<h1>List of All Authors</h1>
+<p th:text="'Hi '+${msg}+'!'"></p>
+<ul>
+
+    <li th:each="author:${countries}">
+        <span th:text="${countries.getName()}"></span>
+    </li>
+</ul>
+</body>
+</html>
